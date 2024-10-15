@@ -1,0 +1,11 @@
+#include<stdio.h>
+int n=12,prod,i;
+int main()
+{
+for(i=1;i<=20;i++)
+{
+    prod=i*n;
+    printf("%d*%d=%d",i,n,prod);
+}
+ return 0;
+}
