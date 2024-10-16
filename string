@@ -1,0 +1,8 @@
+#include<stdio.h>
+#include<string.h>
+char string[7]="triveni";
+int main()
+{
+    printf("%s",string[7]);
+    
+}
