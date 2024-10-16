@@ -1,0 +1,9 @@
+#include<stdio.h>
+#include<string.h>
+char string[7]="triveni";
+void main()
+{
+    printf("%c",string[0]);
+    puts(string);
+    
+}
