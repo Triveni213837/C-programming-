@@ -1,0 +1,13 @@
+#include<stdio.h>
+#include<string.h>
+void main()
+{
+    char a[10]="Raju";
+    char b[10]="Varma";
+    int a1=strcmp(a,b);
+    if(a1>0)
+    a1=a1+10;
+    else
+    a1=a1+20;
+    printf("%d",a1);
+}
